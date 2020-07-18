@@ -464,378 +464,259 @@
         {
             "data": "13/05/2020",
             "confirmados": "35",
-            "monitorados": "78",
+            "monitorados": "21",
             "curados": "13",
             "óbitos": "1"
         },
         {
             "data": "12/05/2020",
             "confirmados": "26",
-            "monitorados": "63",
+            "monitorados": "12",
             "curados": "13",
             "óbitos": "1"
         },
         {
             "data": "11/05/2020",
             "confirmados": "26",
-            "monitorados": "62",
+            "monitorados": "16",
             "curados": "09",
             "óbitos": "1"
         },
         {
             "data": "10/05/2020",
             "confirmados": "19",
-            "monitorados": "57",
+            "monitorados": "9",
             "curados": "09",
             "óbitos": "1"
         },
         {
             "data": "09/05/2020",
             "confirmados": "19",
-            "monitorados": "58",
+            "monitorados": "9",
             "curados": "09",
             "óbitos": "1"
         },
         {
             "data": "08/05/2020",
             "confirmados": "18",
-            "monitorados": "61",
+            "monitorados": "8",
             "curados": "09",
             "óbitos": "1"
         },
         {
             "data": "07/05/2020",
             "confirmados": "18",
-            "monitorados": "59",
+            "monitorados": "8",
             "curados": "09",
             "óbitos": "1"
         },
         {
             "data": "06/05/2020",
             "confirmados": "18",
-            "monitorados": "50",
+            "monitorados": "8",
             "curados": "09",
             "óbitos": "1"
         },
         {
             "data": "05/05/2020",
             "confirmados": "18",
-            "monitorados": "40",
+            "monitorados": "8",
             "curados": "09",
             "óbitos": "1"
         },
         {
             "data": "04/05/2020",
             "confirmados": "16",
-            "monitorados": "44",
+            "monitorados": "11",
             "curados": "4",
             "óbitos": "1"
         },
         {
             "data": "03/05/2020",
             "confirmados": "15",
-            "monitorados": "41",
+            "monitorados": "10",
             "curados": "4",
             "óbitos": "1"
         },
         {
             "data": "02/05/2020",
             "confirmados": "15",
-            "monitorados": "39",
+            "monitorados": "10",
             "curados": "4",
             "óbitos": "1"
         },
         {
             "data": "01/05/2020",
             "confirmados": "15",
-            "monitorados": "37",
+            "monitorados": "10",
             "curados": "4",
             "óbitos": "1"
         },
         {
             "data": "30/04/2020",
             "confirmados": "15",
-            "monitorados": "36",
+            "monitorados": "10",
             "curados": "4",
             "óbitos": "1"
         },
         {
             "data": "29/04/2020",
             "confirmados": "13",
-            "monitorados": "25",
+            "monitorados": "8",
             "curados": "4",
             "óbitos": "1"
         },
         {
             "data": "28/04/2020",
             "confirmados": "12",
-            "monitorados": "23",
+            "monitorados": "7",
             "curados": "4",
             "óbitos": "1"
         },
         {
             "data": "27/04/2020",
             "confirmados": "09",
-            "monitorados": "19",
+            "monitorados": "4",
             "curados": "4",
             "óbitos": "1"
         },
         {
             "data": "26/04/2020",
             "confirmados": "08",
-            "monitorados": "21",
+            "monitorados": "4",
             "curados": "3",
             "óbitos": "1"
         },
         {
             "data": "25/04/2020",
             "confirmados": "08",
-            "monitorados": "22",
+            "monitorados": "4",
             "curados": "3",
             "óbitos": "1"
         },
         {
             "data": "24/04/2020",
-            "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
-            "óbitos": "-1"
+            "confirmados": "07",
+            "monitorados": "3",
+            "curados": "3",
+            "óbitos": "1"
         },
         {
             "data": "23/04/2020",
-            "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
-            "óbitos": "-1"
+            "confirmados": "07",
+            "monitorados": "3",
+            "curados": "3",
+            "óbitos": "1"
         },
         {
             "data": "22/04/2020",
             "confirmados": "07",
-            "monitorados": "23",
+            "monitorados": "3",
             "curados": "3",
             "óbitos": "1"
         },
         {
             "data": "21/04/2020",
             "confirmados": "06",
-            "monitorados": "34",
+            "monitorados": "2",
             "curados": "3",
             "óbitos": "1"
         },
         {
             "data": "20/04/2020",
             "confirmados": "06",
-            "monitorados": "36",
+            "monitorados": "2",
             "curados": "3",
             "óbitos": "1"
         },
         {
             "data": "19/04/2020",
             "confirmados": "06",
-            "monitorados": "37",
+            "monitorados": "2",
             "curados": "3",
             "óbitos": "1"
         },
         {
             "data": "18/04/2020",
-            "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
-            "óbitos": "-1"
+            "confirmados": "6",
+            "monitorados": "2",
+            "curados": "3",
+            "óbitos": "1"
         },
         {
             "data": "17/04/2020",
             "confirmados": "6",
-            "monitorados": "31",
+            "monitorados": "2",
             "curados": "3",
             "óbitos": "1"
         },
         {
             "data": "16/04/2020",
             "confirmados": "6",
-            "monitorados": "31",
+            "monitorados": "3",
             "curados": "2",
             "óbitos": "1"
         },
         {
             "data": "15/04/2020",
             "confirmados": "4",
-            "monitorados": "24",
+            "monitorados": "3",
             "curados": "0",
             "óbitos": "1"
         },
         {
             "data": "14/04/2020",
             "confirmados": "4",
-            "monitorados": "20",
+            "monitorados": "3",
             "curados": "0",
             "óbitos": "1"
         },
         {
             "data": "13/04/2020",
             "confirmados": "4",
-            "monitorados": "18",
+            "monitorados": "3",
             "curados": "0",
             "óbitos": "1"
         },
         {
             "data": "12/04/2020",
             "confirmados": "4",
-            "monitorados": "32",
+            "monitorados": "3",
             "curados": "0",
             "óbitos": "1"
         },
         {
             "data": "11/04/2020",
             "confirmados": "4",
-            "monitorados": "30",
+            "monitorados": "3",
             "curados": "0",
             "óbitos": "1"
         },
         {
             "data": "10/04/2020",
-            "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
-            "óbitos": "-1"
+            "confirmados": "1",
+            "monitorados": "0",
+            "curados": "0",
+            "óbitos": "1"
         },
         {
             "data": "09/04/2020",
             "confirmados": "1",
-            "monitorados": "29",
+            "monitorados": "0",
             "curados": "0",
             "óbitos": "1"
         },
         {
             "data": "08/04/2020",
             "confirmados": "1",
-            "monitorados": "30",
+            "monitorados": "1",
             "curados": "0",
             "óbitos": "0"
         },
         {
             "data": "07/04/2020",
             "confirmados": "1",
-            "monitorados": "-1",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "06/04/2020",
-            "confirmados": "0",
-            "monitorados": "16",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "05/04/2020",
-            "confirmados": "0",
-            "monitorados": "15",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "04/04/2020",
-            "confirmados": "0",
-            "monitorados": "-1",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "03/04/2020",
-            "confirmados": "0",
-            "monitorados": "11",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "02/04/2020",
-            "confirmados": "0",
-            "monitorados": "-1",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "01/04/2020",
-            "confirmados": "0",
-            "monitorados": "23",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "31/03/2020",
-            "confirmados": "0",
-            "monitorados": "19",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "30/03/2020",
-            "confirmados": "0",
-            "monitorados": "16",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "29/03/2020",
-            "confirmados": "0",
-            "monitorados": "15",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "28/03/2020",
-            "confirmados": "0",
-            "monitorados": "15",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "27/03/2020",
-            "confirmados": "0",
-            "monitorados": "15",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "26/03/2020",
-            "confirmados": "0",
-            "monitorados": "15",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "25/03/2020",
-            "confirmados": "0",
-            "monitorados": "11",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "24/03/2020",
-            "confirmados": "0",
-            "monitorados": "11",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "23/03/2020",
-            "confirmados": "0",
-            "monitorados": "7",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "22/03/2020",
-            "confirmados": "0",
-            "monitorados": "7",
-            "curados": "0",
-            "óbitos": "0"
-        },
-        {
-            "data": "21/03/2020",
-            "confirmados": "0",
-            "monitorados": "3",
+            "monitorados": "1",
             "curados": "0",
             "óbitos": "0"
         }
