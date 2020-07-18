@@ -1,5 +1,18 @@
 {
-    "histórico":[
+    "histórico": [{
+            "data": "18/07/2020",
+            "confirmados": "478",
+            "monitorados": "250",
+            "curados": "220",
+            "óbitos": "8"
+        },
+        {
+            "data": "17/07/2020",
+            "confirmados": "471",
+            "monitorados": "261",
+            "curados": "202",
+            "óbitos": "8"
+        },
         {
             "data": "16/07/2020",
             "confirmados": "451",
