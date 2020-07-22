@@ -1,597 +1,674 @@
 {
     "histórico": [{
+            "data": "21/07/2020",
+            "confirmados": "167",
+            "ativos": "60",
+            "recuperados": "104",
+            "óbitos": "3"
+        },
+        {
+            "data": "20/07/2020",
+            "confirmados": "163",
+            "ativos": "61",
+            "recuperados": "99",
+            "óbitos": "3"
+        },
+        {
+            "data": "19/07/2020",
+            "confirmados": "157",
+            "ativos": "56",
+            "recuperados": "98",
+            "óbitos": "3"
+        },
+        {
+            "data": "18/07/2020",
+            "confirmados": "149",
+            "ativos": "56",
+            "recuperados": "90",
+            "óbitos": "3"
+        },
+        {
+            "data": "17/07/2020",
+            "confirmados": "149",
+            "ativos": "56",
+            "recuperados": "90",
+            "óbitos": "3"
+        },
+        {
+            "data": "16/07/2020",
+            "confirmados": "147",
+            "ativos": "57",
+            "recuperados": "87",
+            "óbitos": "3"
+        },
+        {
+            "data": "15/07/2020",
+            "confirmados": "145",
+            "ativos": "57",
+            "recuperados": "85",
+            "óbitos": "3"
+        },
+        {
+            "data": "14/07/2020",
+            "confirmados": "138",
+            "ativos": "60",
+            "recuperados": "75",
+            "óbitos": "3"
+        },
+        {
+            "data": "13/07/2020",
+            "confirmados": "130",
+            "ativos": "55",
+            "recuperados": "73",
+            "óbitos": "2"
+        },
+        {
+            "data": "12/07/2020",
+            "confirmados": "126",
+            "ativos": "56",
+            "recuperados": "68",
+            "óbitos": "2"
+        },
+        {
+            "data": "11/07/2020",
+            "confirmados": "117",
+            "ativos": "54",
+            "recuperados": "61",
+            "óbitos": "2"
+        },
+        {
             "data": "10/07/2020",
             "confirmados": "117",
-            "monitorados": "54",
-            "curados": "61",
+            "ativos": "54",
+            "recuperados": "61",
             "óbitos": "2"
         },
         {
             "data": "09/07/2020",
             "confirmados": "105",
-            "monitorados": "47",
-            "curados": "58",
+            "ativos": "47",
+            "recuperados": "58",
             "óbitos": "2"
         },
         {
             "data": "08/07/2020",
             "confirmados": "100",
-            "monitorados": "41",
-            "curados": "57",
+            "ativos": "41",
+            "recuperados": "57",
             "óbitos": "2"
         },
         {
             "data": "07/07/2020",
             "confirmados": "91",
-            "monitorados": "33",
-            "curados": "56",
+            "ativos": "33",
+            "recuperados": "56",
             "óbitos": "2"
         },
         {
             "data": "06/07/2020",
             "confirmados": "90",
-            "monitorados": "32",
-            "curados": "56",
+            "ativos": "32",
+            "recuperados": "56",
             "óbitos": "2"
         },
         {
             "data": "05/07/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "2"
         },
         {
             "data": "04/07/2020",
             "confirmados": "85",
-            "monitorados": "33",
-            "curados": "50",
+            "ativos": "33",
+            "recuperados": "50",
             "óbitos": "2"
         },
         {
             "data": "03/07/2020",
             "confirmados": "80",
-            "monitorados": "30",
-            "curados": "48",
+            "ativos": "30",
+            "recuperados": "48",
             "óbitos": "2"
         },
         {
             "data": "02/07/2020",
             "confirmados": "74",
-            "monitorados": "27",
-            "curados": "46",
+            "ativos": "27",
+            "recuperados": "46",
             "óbitos": "1"
         },
         {
             "data": "01/07/2020",
             "confirmados": "70",
-            "monitorados": "24",
-            "curados": "45",
+            "ativos": "24",
+            "recuperados": "45",
             "óbitos": "1"
         },
         {
             "data": "30/06/2020",
             "confirmados": "61",
-            "monitorados": "15",
-            "curados": "45",
+            "ativos": "15",
+            "recuperados": "45",
             "óbitos": "1"
         },
         {
             "data": "29/06/2020",
             "confirmados": "58",
-            "monitorados": "14",
-            "curados": "43",
+            "ativos": "14",
+            "recuperados": "43",
             "óbitos": "1"
         },
         {
             "data": "28/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "27/06/2020",
             "confirmados": "54",
-            "monitorados": "15",
-            "curados": "39",
+            "ativos": "15",
+            "recuperados": "39",
             "óbitos": "0"
         },
         {
             "data": "26/06/2020",
             "confirmados": "50",
-            "monitorados": "11",
-            "curados": "39",
+            "ativos": "11",
+            "recuperados": "39",
             "óbitos": "0"
         },
         {
             "data": "25/06/2020",
             "confirmados": "48",
-            "monitorados": "10",
-            "curados": "38",
+            "ativos": "10",
+            "recuperados": "38",
             "óbitos": "0"
         },
         {
             "data": "24/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "23/06/2020",
             "confirmados": "47",
-            "monitorados": "10",
-            "curados": "37",
+            "ativos": "10",
+            "recuperados": "37",
             "óbitos": "0"
         },
         {
             "data": "22/06/2020",
             "confirmados": "45",
-            "monitorados": "8",
-            "curados": "37",
+            "ativos": "8",
+            "recuperados": "37",
             "óbitos": "0"
         },
         {
             "data": "21/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "20/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "19/06/2020",
             "confirmados": "40",
-            "monitorados": "6",
-            "curados": "34",
+            "ativos": "6",
+            "recuperados": "34",
             "óbitos": "0"
         },
         {
             "data": "18/06/2020",
             "confirmados": "40",
-            "monitorados": "6",
-            "curados": "34",
+            "ativos": "6",
+            "recuperados": "34",
             "óbitos": "0"
         },
         {
             "data": "17/06/2020",
             "confirmados": "39",
-            "monitorados": "6",
-            "curados": "33",
+            "ativos": "6",
+            "recuperados": "33",
             "óbitos": "0"
         },
         {
             "data": "16/06/2020",
             "confirmados": "38",
-            "monitorados": "7",
-            "curados": "31",
+            "ativos": "7",
+            "recuperados": "31",
             "óbitos": "0"
         },
         {
             "data": "15/06/2020",
             "confirmados": "36",
-            "monitorados": "5",
-            "curados": "31",
+            "ativos": "5",
+            "recuperados": "31",
             "óbitos": "0"
         },
         {
             "data": "14/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "13/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "12/06/2020",
             "confirmados": "32",
-            "monitorados": "3",
-            "curados": "29",
+            "ativos": "3",
+            "recuperados": "29",
             "óbitos": "0"
         },
         {
             "data": "11/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "10/06/2020",
             "confirmados": "30",
-            "monitorados": "1",
-            "curados": "29",
+            "ativos": "1",
+            "recuperados": "29",
             "óbitos": "0"
         },
         {
             "data": "09/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "08/06/2020",
             "confirmados": "29",
-            "monitorados": "2",
-            "curados": "27",
+            "ativos": "2",
+            "recuperados": "27",
             "óbitos": "0"
         },
         {
             "data": "07/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "06/06/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "05/06/2020",
             "confirmados": "27",
-            "monitorados": "0",
-            "curados": "27",
+            "ativos": "0",
+            "recuperados": "27",
             "óbitos": "0"
         },
         {
             "data": "04/06/2020",
             "confirmados": "27",
-            "monitorados": "1",
-            "curados": "26",
+            "ativos": "1",
+            "recuperados": "26",
             "óbitos": "0"
         },
         {
             "data": "03/06/2020",
             "confirmados": "27",
-            "monitorados": "1",
-            "curados": "26",
+            "ativos": "1",
+            "recuperados": "26",
             "óbitos": "0"
         },
         {
             "data": "02/06/2020",
             "confirmados": "27",
-            "monitorados": "1",
-            "curados": "26",
+            "ativos": "1",
+            "recuperados": "26",
             "óbitos": "0"
         },
         {
             "data": "01/06/2020",
             "confirmados": "27",
-            "monitorados": "1",
-            "curados": "26",
+            "ativos": "1",
+            "recuperados": "26",
             "óbitos": "0"
         },
         {
             "data": "31/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "30/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "29/05/2020",
             "confirmados": "26",
-            "monitorados": "2",
-            "curados": "24",
+            "ativos": "2",
+            "recuperados": "24",
             "óbitos": "0"
         },
         {
             "data": "28/05/2020",
             "confirmados": "26",
-            "monitorados": "5",
-            "curados": "21",
+            "ativos": "5",
+            "recuperados": "21",
             "óbitos": "0"
         },
         {
             "data": "27/05/2020",
             "confirmados": "24",
-            "monitorados": "6",
-            "curados": "18",
+            "ativos": "6",
+            "recuperados": "18",
             "óbitos": "0"
         },
         {
             "data": "26/05/2020",
             "confirmados": "23",
-            "monitorados": "8",
-            "curados": "15",
+            "ativos": "8",
+            "recuperados": "15",
             "óbitos": "0"
         },
         {
             "data": "25/05/2020",
             "confirmados": "23",
-            "monitorados": "8",
-            "curados": "15",
+            "ativos": "8",
+            "recuperados": "15",
             "óbitos": "0"
         },
         {
             "data": "24/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "23/05/2020",
             "confirmados": "23",
-            "monitorados": "8",
-            "curados": "15",
+            "ativos": "8",
+            "recuperados": "15",
             "óbitos": "0"
         },
         {
             "data": "22/05/2020",
             "confirmados": "22",
-            "monitorados": "8",
-            "curados": "14",
+            "ativos": "8",
+            "recuperados": "14",
             "óbitos": "0"
         },
         {
             "data": "21/05/2020",
             "confirmados": "21",
-            "monitorados": "8",
-            "curados": "13",
+            "ativos": "8",
+            "recuperados": "13",
             "óbitos": "0"
         },
         {
             "data": "20/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "19/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "18/05/2020",
             "confirmados": "18",
-            "monitorados": "6",
-            "curados": "12",
+            "ativos": "6",
+            "recuperados": "12",
             "óbitos": "0"
         },
         {
             "data": "17/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "16/05/2020",
             "confirmados": "18",
-            "monitorados": "8",
-            "curados": "10",
+            "ativos": "8",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "15/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "14/05/2020",
             "confirmados": "16",
-            "monitorados": "6",
-            "curados": "10",
+            "ativos": "6",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "13/05/2020",
             "confirmados": "14",
-            "monitorados": "4",
-            "curados": "10",
+            "ativos": "4",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "12/05/2020",
             "confirmados": "14",
-            "monitorados": "4",
-            "curados": "10",
+            "ativos": "4",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "11/05/2020",
             "confirmados": "14",
-            "monitorados": "4",
-            "curados": "10",
+            "ativos": "4",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "10/05/2020",
             "confirmados": "12",
-            "monitorados": "2",
-            "curados": "10",
+            "ativos": "2",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "09/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "08/05/2020",
             "confirmados": "12",
-            "monitorados": "2",
-            "curados": "10",
+            "ativos": "2",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "07/05/2020",
             "confirmados": "12",
-            "monitorados": "2",
-            "curados": "10",
+            "ativos": "2",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "06/05/2020",
             "confirmados": "11",
-            "monitorados": "1",
-            "curados": "10",
+            "ativos": "1",
+            "recuperados": "10",
             "óbitos": "0"
         },
         {
             "data": "05/05/2020",
             "confirmados": "10",
-            "monitorados": "2",
-            "curados": "08",
+            "ativos": "2",
+            "recuperados": "08",
             "óbitos": "0"
         },
         {
             "data": "04/05/2020",
             "confirmados": "10",
-            "monitorados": "2",
-            "curados": "08",
+            "ativos": "2",
+            "recuperados": "08",
             "óbitos": "0"
         },
         {
             "data": "03/05/2020",
             "confirmados": "09",
-            "monitorados": "4",
-            "curados": "05",
+            "ativos": "4",
+            "recuperados": "05",
             "óbitos": "0"
         },
         {
             "data": "02/05/2020",
             "confirmados": "09",
-            "monitorados": "4",
-            "curados": "05",
+            "ativos": "4",
+            "recuperados": "05",
             "óbitos": "0"
         },
         {
             "data": "01/05/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "-1",
+            "ativos": "-1",
+            "recuperados": "-1",
             "óbitos": "0"
         },
         {
             "data": "30/04/2020",
             "confirmados": "09",
-            "monitorados": "5",
-            "curados": "04",
+            "ativos": "5",
+            "recuperados": "04",
             "óbitos": "0"
         },
         {
             "data": "29/04/2020",
             "confirmados": "09",
-            "monitorados": "6",
-            "curados": "03",
+            "ativos": "6",
+            "recuperados": "03",
             "óbitos": "0"
         },
         {
             "data": "28/04/2020",
             "confirmados": "08",
-            "monitorados": "6",
-            "curados": "02",
+            "ativos": "6",
+            "recuperados": "02",
             "óbitos": "0"
         },
         {
             "data": "26/04/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "0",
+            "ativos": "-1",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "25/04/2020",
             "confirmados": "08",
-            "monitorados": "8",
-            "curados": "0",
+            "ativos": "8",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "24/04/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "0",
+            "ativos": "-1",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "23/04/2020",
             "confirmados": "08",
-            "monitorados": "8",
-            "curados": "0",
+            "ativos": "8",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "22/04/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "0",
+            "ativos": "-1",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "21/04/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "0",
+            "ativos": "-1",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "20/04/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "0",
+            "ativos": "-1",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "19/04/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "0",
+            "ativos": "-1",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "18/04/2020",
             "confirmados": "05",
-            "monitorados": "5",
-            "curados": "0",
+            "ativos": "5",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "17/04/2020",
             "confirmados": "-1",
-            "monitorados": "-1",
-            "curados": "0",
+            "ativos": "-1",
+            "recuperados": "0",
             "óbitos": "0"
         },
         {
             "data": "16/04/2020",
             "confirmados": "01",
-            "monitorados": "17",
-            "curados": "0",
+            "ativos": "17",
+            "recuperados": "0",
             "óbitos": "0"
         }
     ]

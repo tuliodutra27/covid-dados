@@ -1,5 +1,33 @@
 {
     "histórico": [{
+            "data": "22/07/2020",
+            "confirmados": "525",
+            "ativos": "254",
+            "recuperados": "259",
+            "óbitos": "12"
+        },
+        {
+            "data": "21/07/2020",
+            "confirmados": "499",
+            "ativos": "235",
+            "recuperados": "252",
+            "óbitos": "12"
+        },
+        {
+            "data": "20/07/2020",
+            "confirmados": "485",
+            "ativos": "232",
+            "recuperados": "243",
+            "óbitos": "10"
+        },
+        {
+            "data": "19/07/2020",
+            "confirmados": "482",
+            "ativos": "246",
+            "recuperados": "228",
+            "óbitos": "8"
+        },
+        {
             "data": "18/07/2020",
             "confirmados": "478",
             "ativos": "250",
