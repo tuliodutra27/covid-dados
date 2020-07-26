@@ -3,13 +3,18 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
 header {
     background: #707070;
     padding: 20px 0;
 }
 
 .caixa {
-    width: 940px;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 }
@@ -21,10 +26,14 @@ header {
     clear: left;
 }
 
+#titulo1 {
+    padding-top: 1em;
+}
+
 nav {
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: -3px;
+    right: 20px;
 }
 
 nav li {
@@ -47,16 +56,28 @@ nav a:hover {
 
 .grafico {
     padding: 3em 0;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
 }
 
+.grafico-campo {
+    margin: 20px;
+}
+
+
+/*
 .grafico-conteudo {
     width: 940px;
     margin: 0 auto;
-}
+}*/
 
 .grafico p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.grafico-campo p {
     margin: 0 0 2em;
     text-align: center;
 }
