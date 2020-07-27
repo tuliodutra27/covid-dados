@@ -87,6 +87,9 @@ nav a:hover {
     .grafico-conteudo {
         width: 100%;
     }
+    ul {
+        display: none;
+    }
 }
 
 
