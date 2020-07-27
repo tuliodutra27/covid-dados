@@ -72,7 +72,7 @@ nav a:hover {
     margin: 1%;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 620px) {
     body {
         width: 620px;
         font-size: 1.25em;
@@ -118,4 +118,8 @@ footer {
 .copyright {
     color: #ffffff;
     margin: 20px 0 0;
+}
+
+.copyright a {
+    color: #ff00bf;
 }
