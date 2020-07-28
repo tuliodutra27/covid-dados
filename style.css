@@ -29,6 +29,7 @@ main {
 
 .titulo-principal {
     text-align: center;
+    text-transform: uppercase;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
@@ -74,10 +75,6 @@ nav a:hover {
     margin: 1%;
 }
 
-h3 {
-    text-transform: uppercase;
-}
-
 @media (max-width: 620px) {
     body {
         width: 620px;
@@ -104,26 +101,18 @@ h3 {
     width: 940px;
     margin: 0 auto;
 }*/
-
-.grafico p {
-    margin: 0 0 2em;
+.texto-central {
     text-align: center;
 }
 
-.grafico-campo p {
-    margin: 0 0 2em;
-    text-align: center;
+#texto-grafico {
+    margin-bottom: 2em;
 }
 
 footer {
     text-align: center;
     background: url("bg.jpg");
     padding: 40px 0;
-}
-
-.copyright {
-    color: #ffffff;
-    margin: 20px 0 0;
 }
 
 .copyright a {
