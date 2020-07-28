@@ -1,15 +1,17 @@
 body {
-    background: #8b8b8b;
+    background: rgb(90, 97, 101);
     font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
 }
 
 h1 {
     margin-left: 20px;
     font-weight: bold;
+    color: #ffffff;
 }
 
 header {
-    background: #707070;
+    background: rgb(49, 49, 49);
     padding: 20px 0;
 }
 
@@ -49,7 +51,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -70,6 +72,10 @@ nav a:hover {
 .grafico-campo {
     width: 49%;
     margin: 1%;
+}
+
+h3 {
+    text-transform: uppercase;
 }
 
 @media (max-width: 620px) {
@@ -122,4 +128,5 @@ footer {
 
 .copyright a {
     color: #ff00bf;
+    text-decoration: none;
 }
