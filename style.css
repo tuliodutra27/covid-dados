@@ -7,12 +7,16 @@ body {
 h1 {
     margin-left: 20px;
     font-weight: bold;
-    color: #ffffff;
 }
 
 header {
-    background: rgb(49, 49, 49);
-    padding: 20px 0;
+    background: #000000;
+    border-bottom: 2px solid #ff00bf;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
 }
 
 .caixa {
@@ -31,18 +35,19 @@ main {
     text-align: center;
     text-transform: uppercase;
     font-size: 2em;
-    margin: 0 0 1em;
     clear: left;
 }
 
 #titulo1 {
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 nav {
     position: absolute;
-    top: -3px;
+    top: 0px;
     right: 20px;
+    display: none;
 }
 
 nav li {
@@ -64,7 +69,7 @@ nav a:hover {
 }
 
 .grafico {
-    padding: 3em 0;
+    padding: 2em 0;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -79,6 +84,9 @@ nav a:hover {
     body {
         width: 620px;
         font-size: 1.25em;
+    }
+    h1{
+        text-align: center;
     }
     .grafico {
         display: block;
@@ -110,9 +118,13 @@ nav a:hover {
 }
 
 footer {
+    background: #000000;
+    border-top: 2px solid #ff00bf;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-align: center;
-    background: url("bg.jpg");
-    padding: 40px 0;
 }
 
 .copyright a {

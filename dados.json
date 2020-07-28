@@ -1,0 +1,46 @@
+{
+  "categorias": [
+    {
+      "titulo": "Gráficos Bom Jesus do Itabapoana",
+      "links": [
+        {
+          "titulo": "Casos totais",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1258879730&amp;format=interactive"
+        },
+        {
+          "titulo": "Casos ativos",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=964283631&amp;format=interactive"
+        },
+        {
+          "titulo": "Casos confirmados",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1904201321&amp;format=interactive"
+        },
+        {
+          "titulo": "Casos recuperados",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1276050587&amp;format=interactive"
+        }
+      ]
+    },
+    {
+      "titulo": "Gráficos Bom Jesus do Norte",
+      "links": [
+        {
+          "titulo": "Casos totais",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1074856817&format=interactive"
+        },
+        {
+          "titulo": "Casos ativos",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=174841577&format=interactive"
+        },
+        {
+          "titulo": "Casos confirmados",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=2115738890&format=interactive"
+        },
+        {
+          "titulo": "Casos recuperados",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1738401331&format=interactive"
+        }
+      ]
+    }
+  ]
+}
