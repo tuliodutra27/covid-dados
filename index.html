@@ -15,21 +15,21 @@
         gtag('config', 'UA-173603267-1');
     </script>
     <script src="https://kit.fontawesome.com/58469aa085.js" crossorigin="anonymous"></script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
     <title>Estatísticas COVID-19 região Fluminense/Capixaba</title>
 
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="tab-view.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-
+<!--https://docs.google.com/spreadsheets/d/1DWZ3XyutsPuoFnVSKwYC8AI73kLCNrgImsouq_WTblw/edit?usp=sharing-->
 <body>
     <header>
         <div class="caixa">
-            <h1>Dados da COVID-19 na divisa Fluminense/Capixaba</h1>
+            <h1>Dados da COVID-19 na região Fluminense/Capixaba</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -41,45 +41,103 @@
     </header>
 
     <main>
-        <h2 class="titulo-principal" id="titulo1">Estatísticas da COVID-19 em Bom Jesus do Itabapoana</h2>
-        <p class="texto-central">Nos campos a seguir serão apresentados dados acerca dos casos de COVID-19 na cidade.</p>
-        <p class="texto-central">Os gráficos são interativos, caso esteja no celular basta clicar na linha do gráfico para ver os dados do dia desejado.</p>
-        <p class="texto-central">Ou caso esteja utilizando um computador basta passar o mouse em cima da linha do gráfico e os dados do dia aparecerão.</p>
-        <section class="grafico">
-            <div class="grafico-campo">
+        <div class="tab">
+            <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'Casos gerais')">Dados gerais</button>
 
-                <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra a evolução dos casos totais de COVID-19 no município de Bom Jesus do Itabapoana.</p>
-                <div class="grafico-conteudo">
-                    <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1258879730&amp;format=interactive"></iframe>
+            <button class="tablinks" onclick="openTab(event, 'Casos por meses')">Dados mensais</button>
+        </div>
+        <div id="Casos gerais" class="tabcontent">
+            <h2 class="titulo-principal" id="titulo1">Estatísticas da COVID-19 em Bom Jesus do Itabapoana</h2>
+            <p class="texto-central">Nos campos a seguir serão apresentados dados acerca dos casos de COVID-19 na
+                cidade.</p>
+            <p class="texto-central">Os gráficos são interativos, caso esteja no celular basta clicar na linha do
+                gráfico para ver os dados do dia desejado.</p>
+            <p class="texto-central">Ou caso esteja utilizando um computador basta passar o mouse em cima da linha do gráfico e os dados do dia aparecerão.</p>
+            <section class="grafico">
+                <div class="grafico-campo">
+
+                    <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra os casos totais no município, entre esses dados estão: Casos confirmados, casos ativos, casos recuperados e mortes.</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
+                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1258879730&amp;format=interactive"></iframe>
+                    </div>
                 </div>
-            </div>
-            <div class="grafico-campo">
+                <div class="grafico-campo">
 
-                <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra a evolução dos casos ativos de COVID-19 no município de Bom Jesus do Itabapoana.</p>
-                <div class="grafico-conteudo">
-                    <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=964283631&amp;format=interactive"></iframe>
+                    <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra a evolução dos casos ativos de COVID-19 no município de Bom Jesus do Itabapoana.</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
+                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=964283631&amp;format=interactive"></iframe>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <h3 class="titulo-principal">Estatísticas da COVID-19 em Bom Jesus do Norte</h3>
+            <h3 class="titulo-principal">Estatísticas da COVID-19 em Bom Jesus do Norte</h3>
 
-        <section class="grafico">
+            <section class="grafico">
 
-            <div class="grafico-campo">
-                <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra a evolução dos casos totais de COVID-19 no município de Bom Jesus do Norte.</p>
-                <div class="grafico-conteudo">
-                    <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1074856817&amp;format=interactive"></iframe>
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra a evolução dos casos totais de COVID-19 no município de Bom Jesus do Norte.</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
+                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1074856817&amp;format=interactive"></iframe>
+                    </div>
                 </div>
-            </div>
 
-            <div class="grafico-campo">
-                <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra a evolução dos casos ativos de COVID-19 no município de Bom Jesus do Norte.</p>
-                <div class="grafico-conteudo">
-                    <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=174841577&amp;format=interactive"></iframe>
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra a evolução dos casos ativos de COVID-19 no município de Bom Jesus do Norte.</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
+                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=174841577&amp;format=interactive"></iframe>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+
+        <div id="Casos por meses" class="tabcontent">
+            <h2 class="titulo-principal" id="titulo1">Estatísticas da COVID-19 em Bom Jesus do Itabapoana</h2>
+            <p class="texto-central">Nos campos a seguir serão apresentados dados separados por meses da COVID-19 na cidade.</p>
+            <p class="texto-central">Os gráficos são interativos, caso esteja no celular basta clicar na linha do gráfico para ver os dados do dia desejado.</p>
+            <p class="texto-central">Ou caso esteja utilizando um computador basta passar o mouse em cima da linha do gráfico e os dados do dia aparecerão.</p>
+            <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra os casos totais no município, entre esses dados estão: Casos confirmados, casos ativos, casos recuperados e mortes.</p>
+            <section class="grafico">
+                <div class="grafico-campo">
+
+                    <p class="texto-central" id="texto-grafico">Dados Abril</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
+                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=573562329&format=interactive"></iframe>
+                    </div>
+                </div>
+                
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">Dados Maio</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
+                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=66936120&format=interactive"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="grafico">
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">Dados Junho</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1735310935&format=interactive"></iframe>
+                    </div>
+                </div>
+
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">Dados Julho</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1504880088&format=interactive"></iframe>
+                    </div>
+                </div>
+            </section>
+            <p class="texto-central" id="texto-grafico">Em breve estatísticas mensais de Bom Jesus do Norte</p>
+        </div>
+
+
     </main>
 
     <footer>
@@ -100,6 +158,24 @@
         </div>
     </footer>
 
+    <script>
+        function openTab(evt, tab_name) {
+            // https://www.w3schools.com/howto/howto_js_tabs.asp
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tab_name).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
 </body>
 
 </html>
