@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 .grafico {
-    padding: 2em 0;
+    padding: 1em 0;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -128,7 +128,19 @@ footer {
     text-align: center;
 }
 
-.copyright a {
-    color: #ff00bf;
-    text-decoration: none;
+
+.fa-icones {
+    padding-top: 1em;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.fab {
+    color: #ffffff;
+    margin-right: 1em;
+}
+
+.far {
+    color: #ffffff;
 }
