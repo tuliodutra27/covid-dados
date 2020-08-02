@@ -10,7 +10,6 @@
     /* Fading effect takes 1 second */
 }
 
-
 /* Go from zero to full opacity */
 
 @keyframes fadeEffect {
@@ -21,7 +20,6 @@
         opacity: 1;
     }
 }
-
 
 /* Style the buttons that are used to open the tab content */
 
@@ -35,13 +33,11 @@
     transition: 0.3s;
 }
 
-
 /* Change background color of buttons on hover */
 
 .tab button:hover {
     background-color: #ddd;
 }
-
 
 /* Create an active/current tablink class */
 
