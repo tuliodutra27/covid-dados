@@ -42,11 +42,15 @@
 
     <main>
         <div class="tab">
-            <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'Casos gerais')">Dados gerais</button>
+            <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'dados_gerais')">Dados gerais</button>
 
-            <button class="tablinks" onclick="openTab(event, 'Casos por meses')">Dados mensais</button>
+            <button class="tablinks" onclick="openTab(event, 'dados_mensais')">Dados mensais</button>
+
+            <!--
+            <button class="tablinks" onclick="openTab(event, 'dados_semanais')">Dados semanais</button> 
+            -->
         </div>
-        <div id="Casos gerais" class="tabcontent">
+        <div id="dados_gerais" class="tabcontent">
             <h2 class="titulo-principal" id="titulo1">Estatísticas da COVID-19 em Bom Jesus do Itabapoana</h2>
             <p class="texto-central">Nos campos a seguir serão apresentados dados acerca dos casos de COVID-19 na
                 cidade.</p>
@@ -72,7 +76,7 @@
                 </div>
             </section>
 
-            <h3 class="titulo-principal">Estatísticas da COVID-19 em Bom Jesus do Norte</h3>
+            <h2 class="titulo-principal">Estatísticas da COVID-19 em Bom Jesus do Norte</h2>
 
             <section class="grafico">
 
@@ -94,7 +98,7 @@
             </section>
         </div>
 
-        <div id="Casos por meses" class="tabcontent">
+        <div id="dados_mensais" class="tabcontent">
             <h2 class="titulo-principal" id="titulo1">Estatísticas da COVID-19 em Bom Jesus do Itabapoana</h2>
             <p class="texto-central">Nos campos a seguir serão apresentados dados separados por meses da COVID-19 na cidade.</p>
             <p class="texto-central">Os gráficos são interativos, caso esteja no celular basta clicar na linha do gráfico para ver os dados do dia desejado.</p>
@@ -137,11 +141,43 @@
             <p class="texto-central" id="texto-grafico">Em breve estatísticas mensais de Bom Jesus do Norte</p>
         </div>
 
+        <div id="dados_mensais" class="tabcontent">
+            
+        </div>
+<!--
+        <section class="sobre">
+            <div class="sobre-secao">
+                <h3 class="titulo-principal">Sobre</h3>
+            </div>
+            <div>
+                <div class="sobre-conteudo">
+                    <h4 class="texto-centralizado">Sobre o projeto</h4><br>
+                    <p>Site desenvolvido para acompanhar as estatísticas da COVID-19 nos município listados, todos os dados são coletados do Facebook das prefeituras municipais.</p>
+                    <p>O motivo disso é que as prefeituras possuem dados mais atualizados sobre a doença em escala municipal do que os boletins estaduais.</p>
+                    <p>Fontes dos dados:
+                        <a href="https://www.facebook.com/Prefeituradebomjesusdonorte" target="blank">Bom Jesus do Norte</a>
+                        <a href="https://www.facebook.com/prefeiturabji" target="blank">Bom Jesus do Itabapoana</a>
+                    </p>
+                </div>
 
+                <div class="sobre-objetivo">
+                    <h4 class="texto-centralizado">Objetivo do projeto</h4><br>
+                    <p>O objetivo deste projeto é levar informação para os moradores das cidades de Bom Jesus do Itabapoana e Bom Jesus do Norte, mostrando as estatísticas da doença atualizadas diariamente.</p>
+                    <p>Além deste projeto há um outro estudo em andamento para mostrar ainda mais informações acerca da doença em nossa cidade. Mais informações em breve.</p>
+                </div>
+
+                <div class="sobre-desenvolvimento">
+                    <h4 class="texto-centralizado">Desenvolvimento do projeto</h4><br>
+                    <p>Caso deseje contribuir com o projeto ou ajudar no desenvolvimento clique no link abaixo para saber mais.</p>
+                    
+                </div>
+            </div>
+        </section>
+-->
     </main>
 
     <footer>
-        <p class="copyright">Desenvolvido por Tulio Marcos, meios de contato abaixo.</p>
+        <p class="copyright">Desenvolvido por Tulio Marcos</p>
         <div class="fa-icones">
             <a href="https://github.com/tuliodutra27/" target="blank">
                 <i class="fab fa-github"></i>
@@ -156,6 +192,7 @@
                 <i class="far fa-envelope"></i>
             </a>
         </div>
+        <p id="versao"><a href="https://github.com/tuliodutra27/covid-dados" target="blank">Versão: 1.2.5</a></p>
     </footer>
 
     <script>
