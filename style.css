@@ -71,7 +71,6 @@ main {
     text-align: center;
     text-transform: uppercase;
     font-size: 2em;
-    
 }
 
 #titulo1 {
@@ -103,28 +102,23 @@ main {
 .sobre {
     text-align: center;
     padding: 1em 0;
+    margin: 1em 0;
+    box-sizing: border-box;
+    border: 2px solid var(--cor-rosa);
 }
 
 .sobre-secao {
     padding: 1em;
 }
 
-.sobre-conteudo {
+.sobre-conteudo, .sobre-objetivo, .sobre-desenvolvimento {
     display: inline-block;
     width: 30%;
-    padding: 0.5em;
-}
-
-.sobre-objetivo {
-    display: inline-block;
-    width: 30%;
-    padding: 0.5em;
-}
-
-.sobre-desenvolvimento {
-    display: inline-block;
-    width: 30%;
-    padding: 0.5em;
+    padding: 2em 1em;
+    margin: 0.5em;
+    box-sizing: border-box;
+    vertical-align: top;
+    border: 2px solid var(--cor-rosa);
 }
 
 .sobre a {
@@ -160,11 +154,7 @@ footer a {
     font-size: 2em;
 }
 
-.fab {
-    margin-left: 1em;
-}
-
-.far {
+.fab, .far {
     margin-left: 1em;
 }
 
@@ -175,7 +165,7 @@ footer a {
         width: 620px;
         font-size: 1.25em;
     }
-    h1{
+    h1 {
         text-align: center;
     }
     .tab {
