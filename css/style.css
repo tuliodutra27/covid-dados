@@ -9,6 +9,7 @@ body {
     background: var(--bg-site);
     font-family: 'Open Sans', sans-serif;
     color: var(--texto-branco);
+    line-height: 1.5;
 }
 
 /* cabeçalho */
@@ -103,22 +104,34 @@ main {
     text-align: center;
     padding: 1em 0;
     margin: 1em 0;
+    /* 
     box-sizing: border-box;
     border: 2px solid var(--cor-rosa);
+    */
 }
 
 .sobre-secao {
     padding: 1em;
 }
 
+h4 {
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
 .sobre-conteudo, .sobre-objetivo, .sobre-desenvolvimento {
-    display: inline-block;
+    display: table-cell;
     width: 30%;
     padding: 2em 1em;
     margin: 0.5em;
-    box-sizing: border-box;
     vertical-align: top;
+    box-sizing: border-box;
     border: 2px solid var(--cor-rosa);
+}
+
+.texto-sobre {
+    padding: 1em 0;
 }
 
 .sobre a {
@@ -189,5 +202,11 @@ footer a {
     }
     ul {
         display: none;
+    }
+
+    .sobre-conteudo, .sobre-objetivo, .sobre-desenvolvimento {
+        display: block;
+        width: 97%;
+        margin: 1.5%;
     }
 }
