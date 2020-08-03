@@ -91,6 +91,11 @@ main {
     margin: 1%;
 }
 
+.grafico-conteudo {
+    margin: auto;
+    width: 94%;
+}
+
 .texto-central {
     text-align: center;
     padding: 0.5em;
@@ -192,13 +197,16 @@ footer a {
     }
     .grafico {
         display: block;
+        margin: 0;
+        width: 100%;
     }
     .grafico-campo {
         width: 99%;
-        margin: 1%;
+        margin: auto;
     }
     .grafico-conteudo {
-        width: 100%;
+        width: 99%;
+        margin: auto;
     }
     ul {
         display: none;
