@@ -189,9 +189,9 @@ footer a {
 
 /* versão 'mobile' */
 
-@media (max-width: 620px) {
+@media (max-width: 640px) {
     body {
-        width: 620px;
+        width: 640px;
         font-size: 1.25em;
     }
     h1 {
