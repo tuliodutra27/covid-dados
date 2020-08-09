@@ -1,6 +1,6 @@
 :root {
     --texto-branco: #f2f2f2;
-    --cor-rosa: #ff00bf;
+    --cor-vermelho: red;
     --bg-site: rgb(90, 90, 90);
     --bg-preto: #000000;
 }
@@ -21,7 +21,7 @@ h1 {
 
 header {
     background: var(--bg-preto);
-    border-bottom: 2px solid var(--cor-rosa);
+    border-bottom: 2px solid var(--cor-vermelho);
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 32px;
@@ -56,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--cor-rosa);
+    color: var(--cor-vermelho);
     text-decoration: underline;
 }
 
@@ -71,7 +71,7 @@ nav a:hover {
 
 .tabcontent {
     box-sizing: border-box;
-    border: 2px solid var(--cor-rosa);
+    border: 2px solid var(--cor-vermelho);
 }
 
 #secao-main {
@@ -88,6 +88,40 @@ nav a:hover {
 #titulo1 {
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.informacoes-importantes {
+    box-sizing: border-box;
+    border: 2px solid var(--cor-vermelho);
+    padding: 1em 0;
+    margin: 1em 0;
+}
+
+.informacoes-importantes a {
+    color: var(--texto-branco);
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 1em 0;
+}
+
+.informacoes-doenca, .sintomas, .transmissao, .protecao {
+    width: 96%;
+    margin: auto;
+}
+
+#mascara {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+}
+
+.lista {
+    list-style-type: disc;
+    width: 90%;
+    margin: auto;
 }
 
 .grafico {
@@ -121,7 +155,7 @@ nav a:hover {
     padding: 1em 0;
     /* 
     box-sizing: border-box;
-    border: 2px solid var(--cor-rosa);
+    border: 2px solid var(--cor-vermelho);
     */
 }
 
@@ -130,7 +164,7 @@ nav a:hover {
     padding-top: 0;
 }
 
-h4 {
+h4, h5 {
     font-size: 1.5em;
     padding: 0.5em;
     margin: 0.5em 0;
@@ -143,7 +177,7 @@ h4 {
     margin: 0.5em;
     vertical-align: top;
     box-sizing: border-box;
-    border: 2px solid var(--cor-rosa);
+    border: 2px solid var(--cor-vermelho);
 }
 
 .texto-sobre {
@@ -159,7 +193,7 @@ h4 {
 
 footer {
     background: var(--bg-preto);
-    border-top: 2px solid var(--cor-rosa);
+    border-top: 2px solid var(--cor-vermelho);
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 32px;
@@ -218,9 +252,6 @@ footer a {
     .grafico-conteudo {
         width: 99%;
         margin: auto;
-    }
-    ul {
-        display: none;
     }
 
     .sobre-conteudo, .sobre-objetivo, .sobre-desenvolvimento {
