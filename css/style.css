@@ -145,6 +145,14 @@ nav a:hover {
     width: 49%;
     margin: 1%;
 }
+.grafico-diario {
+    width: 50%;
+    margin: auto;
+}
+
+.grafico-diario-secao {
+    padding: 1em 0;
+}
 
 .grafico-conteudo {
     margin: auto;
@@ -260,10 +268,14 @@ footer a {
     }
     .grafico {
         display: block;
-        margin: 0;
-        width: 100%;
+        margin: auto;
+        width: 98%;
     }
-    .grafico-campo {
+    .grafico-diario-secao {
+        width: 98%;
+        margin: auto;
+    }
+    .grafico-campo, .grafico-diario {
         width: 99%;
         margin: auto;
     }
