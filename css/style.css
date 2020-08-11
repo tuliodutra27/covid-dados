@@ -15,11 +15,6 @@ body {
 
 /* cabeçalho */
 
-h1 {
-    margin-left: 20px;
-    font-weight: bold;
-}
-
 header {
     background: var(--bg-preto);
     border-bottom: 2px solid var(--cor-vermelho);
@@ -30,56 +25,29 @@ header {
     text-align: center;
 }
 
-.caixa {
+.banner-topo {
     width: 100%;
     position: relative;
     margin: 0 auto;
 }
 
-nav {
-    position: absolute;
-    top: 0px;
-    right: 20px;
-    display: none;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: var(--texto-branco);
+h1 {
+    margin-left: 20px;
     font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: var(--cor-vermelho);
-    text-decoration: underline;
 }
 
 /* corpo do site */
 
-.tab {
-    width: 99%;
+#secao-main {
+    width: 98%;
     margin: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
-.tabcontent {
+.dados {
     box-sizing: border-box;
     border: 2px solid var(--cor-vermelho);
     border-radius: 2em;
     background: var(--bg-informacoes);
-}
-
-#secao-main {
-    width: 98%;
-    margin: auto;
 }
 
 .titulo-principal {
@@ -254,15 +222,10 @@ footer a {
         width: 640px;
         font-size: 1.25em;
     }
-    h1 {
+    h1, .informacoes-importantes p {
         text-align: center;
     }
-    .tab {
-        text-align: center;
-    }
-    .tab button {
-        float: none;
-    }
+
     #texto-grafico {
         margin-bottom: 1em;
     }

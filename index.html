@@ -6,12 +6,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173603267-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
         gtag('config', 'UA-173603267-1');
     </script>
     <script src="https://kit.fontawesome.com/58469aa085.js" crossorigin="anonymous"></script>
@@ -21,244 +19,169 @@
     <title>Estatísticas COVID-19 região Fluminense/Capixaba</title>
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/tab-view.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<!--https://docs.google.com/spreadsheets/d/1DWZ3XyutsPuoFnVSKwYC8AI73kLCNrgImsouq_WTblw/edit?usp=sharing-->
+
 <body>
     <header>
-        <div class="caixa">
+        <div class="banner-topo">
             <h1>Dados da COVID-19 na região Fluminense/Capixaba</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
 
-    <main>
-        <div class="tab">
-            <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'dados_gerais')">Dados gerais</button>
+    <main id="secao-main">
+        <section class="informacoes-importantes">
+            <div class="informacoes-doenca">
+                <h2 class="titulo-secao">O que é a COVID-19?</h2>
+                <p>Segundo o <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a> a COVID-19 é uma doença causada pelo coronavírus, denominado SARS-CoV-2, que apresenta um espectro clínico variando de infecções assintomáticas a quadros graves. De acordo com a Organização Mundial de Saúde, a maioria (cerca de 80%) dos pacientes com COVID-19 podem ser assintomáticos ou oligossintomáticos (poucos sintomas), e aproximadamente 20% dos casos detectados requer atendimento hospitalar por apresentarem dificuldade respiratória, dos quais aproximadamente 5% podem necessitar de suporte ventilatório.</p>
+                <p>Fonte: <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a></p>
+            </div>
 
-            <button class="tablinks" onclick="openTab(event, 'dados_mensais')">Dados mensais</button>
+            <div class="sintomas">
+                <h2 class="titulo-secao">Quais são os sintomas?</h2>
+                <ul class="lista">
+                    <li>Tosse</li>
+                    <li>Febre</li>
+                    <li>Coriza</li>
+                    <li>Dor de garganta</li>
+                    <li>Dificuldade para respirar</li>
+                    <li>Perda de olfato (anosmia)</li>
+                    <li>Alteração do paladar (ageusia)</li>
+                    <li>Distúrbios gastrintestinais (náuseas/vômitos/diarreia)</li>
+                    <li>Cansaço (astenia)</li>
+                    <li>Diminuição do apetite (hiporexia)</li>
+                    <li>Dispnéia (falta de ar)</li>
+                </ul>
+                <p class="texto-fonte">Fonte: <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a></p>
+            </div>
 
-            <!--
-            <button class="tablinks" onclick="openTab(event, 'dados_semanais')">Dados semanais</button> 
-            -->
+            <div class="transmissao">
+                <h2 class="titulo-secao">Como é transmitido?</h2>
+                <ul class="lista">
+                    <li>Toque do aperto de mão contaminadas;</li>
+                    <li>Gotículas de saliva;</li>
+                    <li>Espirro;</li>
+                    <li>Tosse;</li>
+                    <li>Catarro;</li>
+                    <li>Objetos ou superfícies contaminadas, como celulares, mesas, talheres, maçanetas, brinquedos, teclados de computador etc.</li>
+                </ul>
+                <p class="texto-fonte">Fonte: <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a></p>
+            </div>
+
+            <div class="protecao">
+                <h2 class="titulo-secao">Como se proteger?</h2>
+                <ul class="lista">
+                    <li>Lave com frequência as mãos até a altura dos punhos, com água e sabão, ou então higienize com álcool em gel 70%. Essa frequência deve ser ampliada quando estiver em algum ambiente público (ambientes de trabalho, prédios e instalações comerciais, etc), quando utilizar estrutura de transporte público ou tocar superfícies e objetos de uso compartilhado.</li>
+                    <li>Ao tossir ou espirrar, cubra nariz e boca com lenço ou com a parte interna do cotovelo.<br>Não tocar olhos, nariz, boca ou a máscara de proteção fácil com as mãos não higienizadas.<br>Se tocar olhos, nariz, boca ou a máscara, higienize sempre as mãos como já indicado.</li>
+                    <li>Mantenha distância mínima de 1 (um) metro entre pessoas em lugares públicos e de convívio social. Evite abraços, beijos e apertos de mãos. Adote um comportamento amigável sem contato físico, mas sempre com um sorriso no rosto.</li>
+                    <li>Higienize com frequência o celular, brinquedos das crianças e outro objetos que são utilizados com frequência.
+                    </li>
+                    <li>Não compartilhe objetos de uso pessoal como talheres, toalhas, pratos e copos.</li>
+                    <li>Mantenha os ambientes limpos e bem ventilados.</li>
+                    <li>Evite circulação desnecessária nas ruas, estádios, teatros, shoppings, shows, cinemas e igrejas.
+                    </li>
+                    <li>Se estiver doente, evite contato próximo com outras pessoas, principalmente idosos e doentes crônicos, busque orientação pelos canais on-line disponibilizados pelo SUS ou atendimento nos serviços de saúde e siga as recomendações do profissional de saúde.</li>
+                    <li>Durma bem e tenha uma alimentação saudável.</li>
+                    <li>Recomenda-se a utilização de máscaras em todos os ambientes.&nbsp; As máscaras de tecido (caseiras/artesanais), não são Equipamentos de Proteção Individual (EPI), mas podem funcionar como uma barreira física, em especial contra a saída de gotículas potencialmente contaminadas.
+                    </li>
+                </ul>
+                <p class="texto-fonte">Fonte: <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a></p>
+                <p id="mascara">Use máscara!</p>
+            </div>
+
+            <div class="dados-cidade">
+                <h2 class="titulo-secao">Por que os dados do site são diferentes dos das Secretarias Estaduais?</h2>
+                <p>Nossos dados são coletados da Secretaria Municipal de Saúde, <a href="https://www.facebook.com/prefeiturabji/photos/a.770963712926171/3521695841186264/" target="blank">nesse post</a> é explicado o motivo da diferença.</p>
+                <p>Mas resumindo, a Secretaria Municipal utiliza os dados dos testes rápidos, para inflar ainda mais o número de pacientes recuperados. Dando assim uma falsa sensação de que o combate a doença está sendo eficaz. Leia mais <a href="https://epoca.globo.com/sociedade/por-que-numero-de-recuperados-nao-indica-sucesso-na-luta-contra-pandemia-do-coronavirus-24578313" target="blank">aqui.</a></p>
+            </div>
+
+        </section>
+
+        <div class="dados">
+            <h3 class="titulo-principal" id="titulo1">Estatísticas da COVID-19 em Bom Jesus do Itabapoana</h3>
+
+            <p class="texto-central">A seguir são apresentados dados dos casos de COVID-19 na cidade.</p>
+            <p class="texto-central">Os gráficos são interativos, caso esteja no celular basta clicar na linha do gráfico para ver os dados do dia desejado.</p>
+            <p class="texto-central">Nos gráfico abaixo o eixo horizontal representa os dias do ano e o eixo vertical representa o número de casos.</p>
+            <section class="grafico">
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">Casos totais de COVID-19 em Bom Jesus do Itabapoana.</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1258879730&amp;format=interactive"></iframe>
+                    </div>
+                </div>
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">Casos ativos de COVID-19 em Bom Jesus do Itabapoana</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=964283631&amp;format=interactive"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="grafico-diario-secao">
+                <div class="grafico-diario">
+                    <p class="texto-central" id="texto-grafico">Casos diários de COVID-19 em Bom Jesus do Itabapoana</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1772030710&format=interactive"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <h3 class="titulo-principal">Estatísticas da COVID-19 em Bom Jesus do Norte</h3>
+
+            <section class="grafico">
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">Casos totais de COVID-19 em Bom Jesus do Norte</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQfRU11xdZv9J6I82FvHfpJq6idMgOzq0pZL7SW9f0HpOqvsBIqOuvoGl9TadCTYJEe_o52W1n33aSH/pubchart?oid=1788037187&format=interactive"></iframe>
+                    </div>
+                </div>
+
+                <div class="grafico-campo">
+                    <p class="texto-central" id="texto-grafico">Casos ativos de COVID-19 em Bom Jesus do Norte</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQfRU11xdZv9J6I82FvHfpJq6idMgOzq0pZL7SW9f0HpOqvsBIqOuvoGl9TadCTYJEe_o52W1n33aSH/pubchart?oid=919277591&format=interactive"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="grafico-diario-secao">
+                <div class="grafico-diario">
+                    <p class="texto-central" id="texto-grafico">Casos diários de COVID-19 em Bom Jesus do Norte</p>
+                    <div class="grafico-conteudo">
+                        <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQfRU11xdZv9J6I82FvHfpJq6idMgOzq0pZL7SW9f0HpOqvsBIqOuvoGl9TadCTYJEe_o52W1n33aSH/pubchart?oid=207586869&format=interactive"></iframe>
+                    </div>
+                </div>
+            </section>
         </div>
 
-        <section id="secao-main">
-            
-            <section class="informacoes-importantes">
-                <div class="informacoes-doenca">
-                    <h2 class="titulo-secao">O que é a COVID-19?</h2>
-                    <p>Segundo o <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a> a COVID-19 é uma doença causada pelo coronavírus, denominado SARS-CoV-2, que apresenta um espectro clínico variando de infecções assintomáticas a quadros graves. De acordo com a Organização Mundial de Saúde, a maioria (cerca de 80%) dos pacientes com COVID-19 podem ser assintomáticos ou oligossintomáticos (poucos sintomas), e aproximadamente 20% dos casos detectados requer atendimento hospitalar por apresentarem dificuldade respiratória, dos quais aproximadamente 5% podem necessitar de suporte ventilatório.</p>
-                    <p>Fonte: <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a></p>
-                </div>
-                
-                <div class="sintomas">
-                    <h2 class="titulo-secao">Quais são os sintomas?</h2>
-                    <ul class="lista">
-                        <li>Tosse</li>
-                        <li>Febre</li>
-                        <li>Coriza</li>
-                        <li>Dor de garganta</li>
-                        <li>Dificuldade para respirar</li>
-                        <li>Perda de olfato (anosmia)</li>
-                        <li>Alteração do paladar (ageusia)</li>
-                        <li>Distúrbios gastrintestinais (náuseas/vômitos/diarreia)</li>
-                        <li>Cansaço (astenia)</li>
-                        <li>Diminuição do apetite (hiporexia)</li>
-                        <li>Dispnéia (falta de ar)</li>
-                    </ul>
-                    <p class="texto-fonte">Fonte: <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a></p>
-                </div>
-
-                <div class="transmissao">
-                    <h2 class="titulo-secao">Como é transmitido?</h2>
-                    <ul class="lista">
-                        <li>Toque do aperto de mão contaminadas;</li>
-                        <li>Gotículas de saliva;</li>
-                        <li>Espirro;</li>
-                        <li>Tosse;</li>
-                        <li>Catarro;</li>
-                        <li>Objetos ou superfícies contaminadas, como celulares, mesas, talheres, maçanetas, brinquedos, teclados de computador etc.</li>
-                    </ul>
-                    <p class="texto-fonte">Fonte: <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a></p>
-                </div>
-
-                <div class="protecao">
-                    <h2 class="titulo-secao">Como se proteger?</h2>
-                    <ul class="lista">
-                        <li>Lave com frequência as mãos até a altura dos punhos, com água e sabão, ou então higienize com álcool em gel 70%. Essa frequência deve ser ampliada quando estiver em algum ambiente público (ambientes de trabalho, prédios e instalações comerciais, etc), quando utilizar estrutura de transporte público ou tocar superfícies e objetos de uso compartilhado.</li>
-                        <li>Ao tossir ou espirrar, cubra nariz e boca com lenço ou com a parte interna do cotovelo.<br>Não tocar olhos, nariz, boca ou a máscara de proteção fácil com as mãos não higienizadas.<br>Se tocar olhos, nariz, boca ou a máscara, higienize sempre as mãos como já indicado.</li>
-                        <li>Mantenha distância mínima de 1 (um) metro entre pessoas em lugares públicos e de convívio social. Evite abraços, beijos e apertos de mãos. Adote um comportamento amigável sem contato físico, mas sempre com um sorriso no rosto.</li>
-                        <li>Higienize com frequência o celular, brinquedos das crianças e outro objetos que são utilizados com frequência.
-                        </li>
-                        <li>Não compartilhe objetos de uso pessoal como talheres, toalhas, pratos e copos.</li>
-                        <li>Mantenha os ambientes limpos e bem ventilados.</li>
-                        <li>Evite circulação desnecessária nas ruas, estádios, teatros, shoppings, shows, cinemas e igrejas.</li>
-                        <li>Se estiver doente, evite contato próximo com outras pessoas, principalmente idosos e doentes crônicos, busque orientação pelos canais on-line disponibilizados pelo SUS ou atendimento nos serviços de saúde e siga as recomendações do profissional de saúde.</li>
-                        <li>Durma bem e tenha uma alimentação saudável.</li>
-                        <li>Recomenda-se a utilização de máscaras em todos os ambientes.&nbsp; As máscaras de tecido (caseiras/artesanais), não são Equipamentos de Proteção Individual (EPI), mas podem funcionar como uma barreira física, em especial contra a saída de gotículas potencialmente contaminadas.</li>
-                    </ul>
-                    <p class="texto-fonte">Fonte: <a href="https://coronavirus.saude.gov.br/sobre-a-doenca" target="blank">Ministério da Saúde</a></p>
-                    <p id="mascara">Use máscara!</p>
-                </div>
-
-                <div class="dados-cidade">
-                    <h2 class="titulo-secao">Por que os dados do site são diferentes dos das Secretarias Estaduais?</h2>
-                    <p>Nossos dados são coletados da Secretaria Municipal de Saúde, <a href="https://www.facebook.com/prefeiturabji/photos/a.770963712926171/3521695841186264/" target="blank">nesse post</a> é explicado o motivo da diferença.</p>
-                    <p>Mas resumindo, a Secretaria Municipal utiliza os dados dos testes rápidos, para inflar ainda mais o número de pacientes recuperados. Dando assim uma falsa sensação de que o combate a doença está sendo eficaz. Leia mais <a href="https://epoca.globo.com/sociedade/por-que-numero-de-recuperados-nao-indica-sucesso-na-luta-contra-pandemia-do-coronavirus-24578313" target="blank">aqui.</a></p>
-                </div>
-                
-            </section>
-
-            <div id="dados_gerais" class="tabcontent">
-                <h3 class="titulo-principal" id="titulo1">Estatísticas da COVID-19 em Bom Jesus do Itabapoana</h3>
-                
-                <p class="texto-central">A seguir são apresentados dados dos casos de COVID-19 na cidade.</p>
-                <p class="texto-central">Os gráficos são interativos, caso esteja no celular basta clicar na linha do gráfico para ver os dados do dia desejado.</p>
-                <p class="texto-central">Nos gráfico abaixo o eixo horizontal representa os dias do ano e o eixo vertical representa o número de casos.</p>
-                <section class="grafico">
-                    <div class="grafico-campo">
-
-                        <p class="texto-central" id="texto-grafico">Casos totais de COVID-19 em Bom Jesus do Itabapoana.</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1258879730&amp;format=interactive"></iframe>
-                        </div>
-                    </div>
-                    <div class="grafico-campo">
-
-                        <p class="texto-central" id="texto-grafico">Casos ativos de COVID-19 em Bom Jesus do Itabapoana</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=964283631&amp;format=interactive"></iframe>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="grafico-diario-secao">
-                    <div class="grafico-diario">
-                        <p class="texto-central" id="texto-grafico">Casos diários de COVID-19 em Bom Jesus do Itabapoana</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1772030710&format=interactive"></iframe>
-                        </div>
-                    </div>
-                </section>
-
-                <h3 class="titulo-principal">Estatísticas da COVID-19 em Bom Jesus do Norte</h3>
-
-                <section class="grafico">
-
-                    <div class="grafico-campo">
-                        <p class="texto-central" id="texto-grafico">Casos totais de COVID-19 em Bom Jesus do Norte</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQfRU11xdZv9J6I82FvHfpJq6idMgOzq0pZL7SW9f0HpOqvsBIqOuvoGl9TadCTYJEe_o52W1n33aSH/pubchart?oid=1788037187&format=interactive"></iframe>
-                        </div>
-                    </div>
-
-                    <div class="grafico-campo">
-                        <p class="texto-central" id="texto-grafico">Casos ativos de COVID-19 em Bom Jesus do Norte</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQfRU11xdZv9J6I82FvHfpJq6idMgOzq0pZL7SW9f0HpOqvsBIqOuvoGl9TadCTYJEe_o52W1n33aSH/pubchart?oid=919277591&format=interactive"></iframe>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="grafico-diario-secao">
-                    <div class="grafico-diario">
-                        <p class="texto-central" id="texto-grafico">Casos diários de COVID-19 em Bom Jesus do Norte</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQfRU11xdZv9J6I82FvHfpJq6idMgOzq0pZL7SW9f0HpOqvsBIqOuvoGl9TadCTYJEe_o52W1n33aSH/pubchart?oid=207586869&format=interactive"></iframe>
-                        </div>
-                    </div>
-                </section>
+        <section class="sobre">
+            <div class="sobre-secao">
+                <h4 class="titulo-principal">Sobre</h4>
             </div>
 
-            <div id="dados_mensais" class="tabcontent">
-                <h3 class="titulo-principal" id="titulo1">Estatísticas da COVID-19 em Bom Jesus do Itabapoana</h3>
-                <p class="texto-central">Nos campos a seguir serão apresentados dados separados por meses da COVID-19 na cidade.</p>
-                <p class="texto-central">Os gráficos são interativos, caso esteja no celular basta clicar na linha do gráfico para ver os dados do dia desejado.</p>
-                <p class="texto-central">Ou caso esteja utilizando um computador basta passar o mouse em cima da linha do gráfico e os dados do dia aparecerão.</p>
-                <p class="texto-central" id="texto-grafico">O gráfico abaixo mostra os casos totais no município, entre esses dados estão: Casos confirmados, casos ativos, casos recuperados e mortes.</p>
-                <section class="grafico">
-                    <div class="grafico-campo">
-
-                        <p class="texto-central" id="texto-grafico">Dados Abril</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=573562329&format=interactive"></iframe>
-                        </div>
-                    </div>
-                    
-                    <div class="grafico-campo">
-                        <p class="texto-central" id="texto-grafico">Dados Maio</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no"
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=66936120&format=interactive"></iframe>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="grafico">
-                    <div class="grafico-campo">
-                        <p class="texto-central" id="texto-grafico">Dados Junho</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1735310935&format=interactive"></iframe>
-                        </div>
-                    </div>
-
-                    <div class="grafico-campo">
-                        <p class="texto-central" id="texto-grafico">Dados Julho</p>
-                        <div class="grafico-conteudo">
-                            <iframe width="100%" height="364" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1504880088&format=interactive"></iframe>
-                        </div>
-                    </div>
-                </section>
-                <p class="texto-central" id="texto-grafico">Em breve estatísticas mensais de Bom Jesus do Norte</p>
+            <div class="sobre-conteudo">
+                <h5 class="texto-centralizado">Sobre o projeto</h5>
+                <p class="texto-sobre">Site desenvolvido para acompanhar as estatísticas da COVID-19 nos município listados, todos os dados são coletados do Facebook das prefeituras municipais.</p>
+                <p class="texto-sobre">O motivo disso é que as prefeituras possuem dados mais atualizados sobre a doença em escala municipal do que os boletins estaduais.</p>
+                <p class="texto-sobre">Fontes dos dados:</p>
+                <p class="texto-sobre"><a href="https://www.facebook.com/Prefeituradebomjesusdonorte" target="blank">Bom Jesus do Norte</a></p>
+                <p class="texto-sobre"><a href="https://www.facebook.com/prefeiturabji" target="blank">Bom Jesus do Itabapoana</a>
+                </p>
             </div>
 
-            <div id="dados_mensais" class="tabcontent">
-                
+            <div class="sobre-objetivo">
+                <h5 class="texto-centralizado">Objetivo do projeto</h5>
+                <p class="texto-sobre">O objetivo deste projeto é levar informação para os moradores das cidades de Bom Jesus do Itabapoana e Bom Jesus do Norte, mostrando as estatísticas da doença atualizadas diariamente.</p>
+                <p class="texto-sobre">Há outro estudo em andamento que visa fazer estimativas futuras com base nos dados que temos até agora, visando alertar a população e as autoridades do quanto esse problema é grave e da necessidade de medidas mais rígidas para conter o avanço da doença nos municípios. Mais informações serão anunciadas em breve.</p>
             </div>
 
-            <section class="sobre">
-                <div class="sobre-secao">
-                    <h4 class="titulo-principal">Sobre</h4>
-                </div>
-
-                <div class="sobre-conteudo">
-                    <h5 class="texto-centralizado">Sobre o projeto</h5>
-                    <p class="texto-sobre">Site desenvolvido para acompanhar as estatísticas da COVID-19 nos município listados, todos os dados são coletados do Facebook das prefeituras municipais.</p>
-                    <p class="texto-sobre">O motivo disso é que as prefeituras possuem dados mais atualizados sobre a doença em escala municipal do que os boletins estaduais.</p>
-                    <p class="texto-sobre">Fontes dos dados:</p>
-                    <p class="texto-sobre"><a href="https://www.facebook.com/Prefeituradebomjesusdonorte" target="blank">Bom Jesus do Norte</a></p>
-                    <p class="texto-sobre"><a href="https://www.facebook.com/prefeiturabji" target="blank">Bom Jesus do Itabapoana</a>
-                    </p>
-                </div>
-
-                <div class="sobre-objetivo">
-                    <h5 class="texto-centralizado">Objetivo do projeto</h5>
-                    <p class="texto-sobre">O objetivo deste projeto é levar informação para os moradores das cidades de Bom Jesus do Itabapoana e Bom Jesus do Norte, mostrando as estatísticas da doença atualizadas diariamente.</p>
-                    <p class="texto-sobre">Há outro estudo em andamento que visa fazer estimativas futuras com base nos dados que temos até agora, visando alertar a população e as autoridades do quanto esse problema é grave e da necessidade de medidas mais rígidas para conter o avanço da doença nos municípios. Mais informações serão anunciadas em breve.</p>
-                </div>
-
-                <div class="sobre-desenvolvimento">
-                    <h5 class="texto-centralizado">Desenvolvimento do projeto</h5>
-                    <p class="texto-sobre">Caso deseje contribuir com o projeto ou ajudar no desenvolvimento clique no link abaixo para saber mais.</p>
-                    <a href="https://github.com/tuliodutra27/covid-dados" target="blank">Link para o projeto.</a>
-                </div>
-            </section>
+            <div class="sobre-desenvolvimento">
+                <h5 class="texto-centralizado">Desenvolvimento do projeto</h5>
+                <p class="texto-sobre">Caso deseje contribuir com o projeto ou ajudar no desenvolvimento clique no link abaixo para saber mais.</p>
+                <a href="https://github.com/tuliodutra27/covid-dados" target="blank">Link para o projeto.</a>
+            </div>
         </section>
 
     </main>
@@ -279,27 +202,8 @@
                 <i class="far fa-envelope"></i>
             </a>
         </div>
-        <p id="versao"><a href="https://github.com/tuliodutra27/covid-dados" target="blank">Versão: 1.4.3</a></p>
+        <p id="versao"><a href="https://github.com/tuliodutra27/covid-dados" target="blank">Versão: 1.4.4</a></p>
     </footer>
-
-    <script>
-        function openTab(evt, tab_name) {
-            // https://www.w3schools.com/howto/howto_js_tabs.asp
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tab_name).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-        document.getElementById("defaultOpen").click();
-    </script>
 </body>
 
 </html>
