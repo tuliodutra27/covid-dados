@@ -48,6 +48,8 @@ h1 {
     border: 2px solid var(--cor-vermelho);
     border-radius: 2em;
     background: var(--bg-informacoes);
+    margin: 1em 0;
+    padding: 1em 0;
 }
 
 .titulo-principal {
@@ -57,13 +59,16 @@ h1 {
 }
 
 #titulo1 {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em 0;
+}
+
+.lista-conteudo a {
+    color: var(--texto-branco);
 }
 
 /* Informações sobre a covid */
 
-.informacoes-importantes {
+.informacoes-importantes, .lista-conteudo {
     box-sizing: border-box;
     border: 2px solid var(--cor-vermelho);
     border-radius: 2em;
@@ -138,11 +143,7 @@ h1 {
 
 .sobre {
     text-align: center;
-    padding: 1em 0;
-    /* 
-    box-sizing: border-box;
-    border: 2px solid var(--cor-vermelho);
-    */
+    padding-bottom: 1em;
 }
 
 .sobre-secao {
@@ -213,6 +214,10 @@ footer a {
     .lista {
         width: 95%;
     }
+    .lista-conteudo ul {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 /* versão 'mobile' */
@@ -224,6 +229,11 @@ footer a {
     }
     h1, .informacoes-importantes p {
         text-align: center;
+    }
+
+    .lista-conteudo ul {
+        width: 94%;
+        margin: auto;
     }
 
     #texto-grafico {
