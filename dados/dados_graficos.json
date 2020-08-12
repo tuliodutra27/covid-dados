@@ -12,12 +12,16 @@
           "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=964283631&amp;format=interactive"
         },
         {
-          "titulo": "Casos confirmados",
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1904201321&amp;format=interactive"
+          "titulo": "Casos semanais",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=139438026&format=interactive"
         },
         {
-          "titulo": "Casos recuperados",
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1276050587&amp;format=interactive"
+          "titulo": "Casos mensais",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=2007184272&format=interactive"
+        },
+        {
+          "titulo": "Casos diários",
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1772030710&format=interactive"
         }
       ]
     },
@@ -26,19 +30,23 @@
       "links": [
         {
           "titulo": "Casos totais",
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1074856817&format=interactive"
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQfRU11xdZv9J6I82FvHfpJq6idMgOzq0pZL7SW9f0HpOqvsBIqOuvoGl9TadCTYJEe_o52W1n33aSH/pubchart?oid=1788037187&format=interactive"
         },
         {
           "titulo": "Casos ativos",
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=174841577&format=interactive"
+          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQfRU11xdZv9J6I82FvHfpJq6idMgOzq0pZL7SW9f0HpOqvsBIqOuvoGl9TadCTYJEe_o52W1n33aSH/pubchart?oid=919277591&format=interactive"
         },
         {
-          "titulo": "Casos confirmados",
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=2115738890&format=interactive"
+          "titulo": "Casos semanais",
+          "url": ""
         },
         {
-          "titulo": "Casos recuperados",
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_cOF_NYKGBfBjYaHM_H9NstNsgTzfqlvpVmrDLUa_euj2yyS__OMBvh2K5wWYe5u2_0ltfZO2IqV_/pubchart?oid=1738401331&format=interactive"
+          "titulo": "Casos mensais",
+          "url": ""
+        },
+        {
+          "titulo": "Casos diários",
+          "url": ""
         }
       ]
     }

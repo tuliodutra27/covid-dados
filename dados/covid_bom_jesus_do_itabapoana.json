@@ -1,5 +1,83 @@
 {
-    "histórico": [{
+    "histórico": [
+        {
+            "data": "02/08/2020",
+            "confirmados": "645",
+            "ativos": "199",
+            "recuperados": "431",
+            "óbitos": "15"
+        },
+        {
+            "data": "01/08/2020",
+            "confirmados": "644",
+            "ativos": "198",
+            "recuperados": "431",
+            "óbitos": "15"
+        },
+        {
+            "data": "31/07/2020",
+            "confirmados": "637",
+            "ativos": "203",
+            "recuperados": "419",
+            "óbitos": "15"
+        },
+        {
+            "data": "30/07/2020",
+            "confirmados": "633",
+            "ativos": "224",
+            "recuperados": "394",
+            "óbitos": "15"
+        },
+        {
+            "data": "29/07/2020",
+            "confirmados": "629",
+            "ativos": "236",
+            "recuperados": "378",
+            "óbitos": "15"
+        },
+        {
+            "data": "28/07/2020",
+            "confirmados": "618",
+            "ativos": "240",
+            "recuperados": "363",
+            "óbitos": "15"
+        },
+        {
+            "data": "27/07/2020",
+            "confirmados": "611",
+            "ativos": "248",
+            "recuperados": "348",
+            "óbitos": "15"
+        },
+        {
+            "data": "26/07/2020",
+            "confirmados": "590",
+            "ativos": "258",
+            "recuperados": "317",
+            "óbitos": "15"
+        },
+        {
+            "data": "25/07/2020",
+            "confirmados": "588",
+            "ativos": "268",
+            "recuperados": "305",
+            "óbitos": "15"
+        },
+        {
+            "data": "24/07/2020",
+            "confirmados": "573",
+            "ativos": "269",
+            "recuperados": "289",
+            "óbitos": "15"
+        },
+        {
+            "data": "23/07/2020",
+            "confirmados": "542",
+            "ativos": "255",
+            "recuperados": "274",
+            "óbitos": "13"
+        },
+        {
             "data": "22/07/2020",
             "confirmados": "525",
             "ativos": "254",
