@@ -43,7 +43,7 @@ h1 {
     margin: auto;
 }
 
-.dados {
+.dados-bji, .dados-bjn {
     box-sizing: border-box;
     border: 2px solid var(--cor-vermelho);
     border-radius: 2em;
@@ -66,7 +66,11 @@ h1 {
     color: var(--texto-branco);
 }
 
-.lista-conteudo {
+.mostrar {
+    display: block;
+}
+
+.oculto {
     display: none;
 }
 
